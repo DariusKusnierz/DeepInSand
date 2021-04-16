@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-general.css">
+    
+    <title>Deep In Sand</title>
+</head>
+<body>
+    <div id="container">
+        <div id="title">Deep In Sand</div>
+        <div id="board">
+            <div id="startGame">
+                <h3>Story</h3>
+                <p>You are an archaeologist who, during an excavation in Cairo, fell under the sand as a result of an accident and ended up in a cave. Try to survive as long as possible. Watch out for the falling sand and the one under your feet.</p>
+                <p id=startGButt onclick="startGame()">Try survive!</p>
+            </div>
+            <div id="endGame">
+                <h3>You're dead!</h3>
+                <b><p id="finalScore">Your score is: 0</p></b>
+                <a href="index.html">Try again</a>
+            </div>
+            <div id="points"><p>Points: 0</p></div>
+        </div>
+        <div id="desc">
+            <p>Controls: W - jump, A - move left, D - move right</p>
+            <p>To get more points and have higher score, take bottles of water. They'll give you instantly 2 points.</p>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

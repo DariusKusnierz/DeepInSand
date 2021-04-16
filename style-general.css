@@ -1,0 +1,130 @@
+body{
+  background-color:rgb(24, 24, 24);
+}
+
+#container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+#title{
+  background-color: rgba(255, 255, 255, 0);
+  height: 100px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: silver;
+  text-align: center;
+  line-height: 100px;
+}
+
+#board{
+  background-color: rgb(100, 83, 45);
+  background-image: url(img/background-v2.png);
+  /* background-color: rgb(148, 113, 38); */
+  display: block;
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  perspective: 0;
+}
+
+.blocks{
+  width: 100px;
+  height: 100px;
+  /* background-color: rgb(255, 251, 1); */
+  /* outline: 2px solid black; */
+  position: fixed;
+  background-image: url(img/s1.png);
+  background-size: cover;
+}
+
+#avatar{
+  width: 45px;
+  height: 70px;
+  /* background-color: rgb(24, 216, 24); */
+  /* outline: 1px solid black; */
+  position: fixed;
+  background-image: url(img/charP1.png);
+}
+
+#endGame{
+  display: none;
+  background-color: rgb(196, 193, 188);
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+  height: 135px;
+  color: rgb(8, 8, 8);
+  position: absolute;
+  left: 35%;
+  top: 40%;
+  z-index: 1;
+}
+
+#endGame a{
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+}
+
+#endGame a:hover{
+  color: rgb(18, 133, 8);
+}
+
+#points{
+  position: absolute;
+  padding: 0 20px;
+  font-weight: bold;
+  font-size: 25px;
+  z-index: 1;
+  color: gold;
+}
+
+.coins{
+  width: 30px;
+  height: 30px;
+  /* background-color: rgb(255, 251, 1); */
+  /* outline: 2px solid black; */
+  position: fixed;
+  background-image: url(img/coin.png);
+  background-size: cover;
+}
+
+#desc{
+  color: silver;
+  margin-top: 60px;
+}
+
+#startGame{
+  /* display: none; */
+  background-color: rgb(196, 193, 188);
+  border-radius: 10px;
+  text-align: justify;
+  width: 565px;
+  height: 165px;
+  color: rgb(8, 8, 8);
+  position: fixed;
+  padding: 20px;
+  left: 13%;
+  top: 35%;
+  z-index: 2;
+}
+
+#startGame h3{
+  text-align: center;
+}
+
+#startGButt{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#startGButt:hover{
+  color: rgb(18, 133, 8);
+  cursor: pointer;
+}
+
+#pointC{
+  color: green;
+}
