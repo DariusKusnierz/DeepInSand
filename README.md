@@ -100,6 +100,6 @@ Dla wygenerowanej monety ustawiany jest interwał sprawdzający czy wystąpiła 
 ![image](https://user-images.githubusercontent.com/72936095/123794544-3dbe7580-d8e3-11eb-8fed-56f34bedefe6.png)
 
 ## grabCoin
-Sprawdza czy pozycje monety i avatara nie nachodzą się na siebie (czy doszło do kolizji). W przypadku wystąpienia kolizji moneta jest usuwana, po puli punktów dopisywane są 2 punkty i aktualizowana jest punktacja na ekranie.
+Sprawdza czy pozycje monety i avatara nie nachodzą się na siebie (czy doszło do kolizji). W przypadku wystąpienia kolizji moneta jest usuwana, do puli punktów dopisywane są 2 punkty i aktualizowana jest punktacja na ekranie.
 
 ![image](https://user-images.githubusercontent.com/72936095/123795751-9e9a7d80-d8e4-11eb-9ce2-c4be388d688a.png)
